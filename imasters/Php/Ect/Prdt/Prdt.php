@@ -13,6 +13,10 @@ use \Imasters\Php\Ect\Prdt\ECTFormatos;
 use \Imasters\Php\Ect\Prdt\ECTServicos;
 use \Imasters\Php\Ect\Prdt\ECTServico;
 
+use \ArrayIterator;
+use \DOMDocument;
+use \DOMXPath;
+
 /**
  * @brief	Cálculo de preços e prazos de entrega de encomendas
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>
