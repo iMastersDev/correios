@@ -19,15 +19,15 @@ Como Usar ?
 > A biblioteca pode fazer o cálculo de 1 serviço:
 
 	<?php
-	require_once 'com/imasters/php/ect/ECT.php';
+	require_once 'vendor/autoload.php';
 	
-	$ect = new ECT();
+	$ect = new \Imasters\Php\Ect\ECT();
 	$prdt = $ect->prdt();
 	$prdt->setNVlAltura( 10 );
 	$prdt->setNVlComprimento( 20 );
 	$prdt->setNVlLargura( 20 );
-	$prdt->setNCdFormato( ECTFormatos::FORMATO_CAIXA_PACOTE );
-	$prdt->setNCdServico( ECTServicos::PAC ); //calculando apenas PAC
+	$prdt->setNCdFormato( \Imasters\Php\Ect\Prdt\ECTFormatos::FORMATO_CAIXA_PACOTE );
+	$prdt->setNCdServico( \Imasters\Php\Ect\Prdt\ECTServicos::PAC ); //calculando apenas PAC
 	$prdt->setSCepOrigem( '09641030' );
 	$prdt->setSCepDestino( '27511300' );
 	$prdt->setNVlPeso( 10 );
@@ -39,15 +39,15 @@ Como Usar ?
 > Ou de vários ao mesmo tempo, eliminando-se assim o tempo de espera do cliente:
 	
 	<?php
-	require_once 'com/imasters/php/ect/ECT.php';
+	require_once 'vendor/autoload.php';
 	
-	$ect = new ECT();
+	$ect = new \Imasters\Php\Ect\ECT();
 	$prdt = $ect->prdt();
 	$prdt->setNVlAltura( 10 );
 	$prdt->setNVlComprimento( 20 );
 	$prdt->setNVlLargura( 20 );
-	$prdt->setNCdFormato( ECTFormatos::FORMATO_CAIXA_PACOTE );
-	$prdt->setNCdServico( implode( ',' , array( ECTServicos::PAC , ECTServicos::SEDEX ) ) );
+	$prdt->setNCdFormato( \Imasters\Php\Ect\Prdt\ECTFormatos::FORMATO_CAIXA_PACOTE );
+	$prdt->setNCdServico( implode( ',' , array( \Imasters\Php\Ect\Prdt\ECTServicos::PAC , \Imasters\Php\Ect\Prdt\ECTServicos::SEDEX ) ) );
 	$prdt->setSCepOrigem( '09641030' );
 	$prdt->setSCepDestino( '27511300' );
 	$prdt->setNVlPeso( 10 );
