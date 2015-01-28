@@ -2,7 +2,7 @@
 	"name": "imastersdev/correios",
 	"description": "Integração com webservice dos Correios",
 	"version": "1.0.0",
-	"keywords": ["correios", "webservice", "integração"],
+	"keywords": ["correios", "webservice"],
 	"license": "MIT",
 	"authors": [
 		{
