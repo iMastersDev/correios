@@ -5,7 +5,9 @@
  * @package com.imasters.php.http
  */
 
-require_once 'com/imasters/php/http/Cookie.php';
+namespace Imasters\Php\Http;
+
+use \Serializable;
 
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>

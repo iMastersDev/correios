@@ -1,0 +1,25 @@
+{
+	"name": "glauberportella/correios",
+	"description": "Integração com webservice dos Correios",
+	"version": "1.0.0",
+	"keywords": ["correios", "webservice", "integração"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Glauber Portella",
+			"email": "glauberportella@gmail.com",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"email": "glauberportella@gmail.com"
+	},
+	"autoload": {
+		"psr-4": {
+			"Imasters\\": "imasters"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.4.*"
+	}
+}

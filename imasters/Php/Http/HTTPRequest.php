@@ -5,9 +5,7 @@
  * @package com.imasters.php.http
  */
 
-require_once 'com/imasters/php/http/HTTPConnection.php';
-require_once 'com/imasters/php/http/HTTPAuthenticator.php';
-require_once 'com/imasters/php/http/HTTPRequestMethod.php';
+namespace Imasters\Php\Http;
 
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>

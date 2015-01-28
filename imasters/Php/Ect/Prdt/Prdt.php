@@ -5,10 +5,13 @@
  * @package com.imasters.php.ect.prdt
  */
 
-require_once 'com/imasters/php/ect/prdt/ECTFormatos.php';
-require_once 'com/imasters/php/ect/prdt/ECTServicos.php';
-require_once 'com/imasters/php/ect/EctAPI.php';
-require_once 'com/imasters/php/ect/prdt/ECTServico.php';
+namespace Imasters\Php\Ect\Prdt;
+
+use \Imasters\Php\Ect\ECT;
+use \Imasters\Php\Ect\EctAPI;
+use \Imasters\Php\Ect\Prdt\ECTFormatos;
+use \Imasters\Php\Ect\Prdt\ECTServicos;
+use \Imasters\Php\Ect\Prdt\ECTServico;
 
 /**
  * @brief	Cálculo de preços e prazos de entrega de encomendas

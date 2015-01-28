@@ -5,8 +5,7 @@
  * @package com.imasters.php.ect
  */
 
-require_once 'com/imasters/php/http/HTTPConnection.php';
-require_once 'com/imasters/php/http/HTTPCookieManager.php';
+namespace Imasters\Php\Ect;
 
 /**
  * @brief	Interface para definição de uma API do Correios

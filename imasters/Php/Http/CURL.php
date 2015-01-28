@@ -5,8 +5,11 @@
  * @package com.imasters.php.http
  */
 
-require_once 'com/imasters/php/http/HTTPRequest.php';
-require_once 'com/imasters/php/http/HTTPResponse.php';
+namespace Imasters\Php\Http;
+
+use \InvalidArgumentException;
+use \RuntimeException;
+use \UnexpectedValueException;
 
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>
