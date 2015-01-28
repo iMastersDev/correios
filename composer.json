@@ -6,6 +6,11 @@
 	"license": "MIT",
 	"authors": [
 		{
+			"name": "iMasters Dev",
+			"homepage": "http://imasters.com.br/noticia/imasters-lanca-novo-pacote-de-integracao-com-os-correios/",
+			"role": "developer"
+		},
+		{
 			"name": "Glauber Portella",
 			"email": "glauberportella@gmail.com",
 			"role": "developer"
