@@ -11,7 +11,7 @@ Instalar
 
 Instalação via [Composer](http://www.getcomposer.org)
 
-	php composer.phar require iMastersDev/correios
+	php composer.phar require imastersdev/correios
 
 Como Usar ?
 -----------
