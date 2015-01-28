@@ -1,6 +1,6 @@
 {
 	"name": "imastersdev/correios",
-	"description": "Integração com webservice dos Correios",
+	"description": "Webservice integration with Brazillian Correios Service",
 	"version": "1.0.0",
 	"keywords": ["correios", "webservice"],
 	"license": "MIT",
@@ -23,6 +23,9 @@
 		"psr-4": {
 			"Imasters\\": "imasters"
 		}
+	},
+	"require": {
+		"php": ">=5.3.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.4.*"
