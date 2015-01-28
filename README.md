@@ -6,6 +6,13 @@ Com a biblioteca o desenvolvedor utiliza uma interface simples, setando alguns p
 Todo o processo de integração é feito nos bastidores e o preço do frete e tempo de entrega é devolvido ao desenvolvedor para poder utilizar em sua aplicação sem o menor esforço.
 O desenvolvedor pode calcular, de uma única vez, o preço do frete para os diversos serviços oferecidos pelo Correios, eliminando várias chamadas ao serviço e diminuindo o tempo de espera do cliente.
 
+Instalar
+--------
+
+Instalação via [Composer](http://www.getcomposer.org)
+
+	php composer.phar require iMastersDev/correios
+
 Como Usar ?
 -----------
 
