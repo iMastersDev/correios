@@ -5,6 +5,8 @@
  * @package com.imasters.php.http
  */
 
+namespace Imasters\Php\Http;
+
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>
  * @brief	Constantes para identificar o método de requisição HTTP

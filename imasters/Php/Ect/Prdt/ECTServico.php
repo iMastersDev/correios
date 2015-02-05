@@ -5,6 +5,8 @@
  * @package com.imasters.php.ect.prdt
  */
 
+namespace Imasters\Php\Ect\Prdt;
+
 /**
  * @brief	Informações sobre preço e prazo cobrados para um serviço do Correios
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>

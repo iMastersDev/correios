@@ -5,9 +5,10 @@
  * @package com.imasters.php.http
  */
 
-require_once 'com/imasters/php/http/HTTPAuthenticator.php';
-require_once 'com/imasters/php/http/HTTPRequestMethod.php';
-require_once 'com/imasters/php/http/CURL.php';
+namespace Imasters\Php\Http;
+
+use \InvalidArgumentException;
+use \BadMethodCallException;
 
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>

@@ -5,6 +5,10 @@
  * @package com.imasters.php.http
  */
 
+namespace Imasters\Php\Http;
+
+use \InvalidArgumentException;
+
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>
  * @brief	Cookie HTTP

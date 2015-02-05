@@ -5,6 +5,8 @@
  * @package com.imasters.php.ect.prdt
  */
 
+namespace Imasters\Php\Ect\Prdt;
+
 /**
  * @brief	Tipos de serviços oferecidos pelo Correios
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>

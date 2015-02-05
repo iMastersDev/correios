@@ -5,7 +5,7 @@
  * @package com.imasters.php.http
  */
 
-require_once 'com/imasters/php/http/HTTPRequest.php';
+namespace Imasters\Php\Http;
 
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>
