@@ -34,10 +34,23 @@ abstract class Tabela
 	protected $estado_origem;
 
 	/**
+	 * Faixa de peso inicial
+	 * @var array
+	 */
+	protected $peso_ini;
+
+	/**
+	 * Faixa de peso final
+	 * @var array
+	 */
+	protected $peso_fim;
+
+	/**
 	 * Tarifa local
 	 * @var array
 	 */
 	protected $local;
+
 
 	/**
 	 * Tarifa estadual
