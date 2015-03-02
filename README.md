@@ -55,3 +55,5 @@ Como Usar ?
 	foreach ( $prdt->call() as $servico ) {
 		printf( "O preço do frete do correios para o serviço %d é R$ %.02f\n" , $servico->Codigo , $servico->Valor );
 	}
+
+http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdEmpresa=14335794&sDsSenha=70994140&sCepOrigem=30160041&sCepDestino=30180100&nVlPeso=1&nCdFormato=1&nVlComprimento=20&nVlAltura=10&nVlLargura=20&sCdMaoPropria=n&nVlValorDeclarado=0&sCdAvisoRecebimento=n&nCdServico=41106&nVlDiametro=0&StrRetorno=xml&nIndicaCalculo=3

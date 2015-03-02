@@ -21,7 +21,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Imasters\\": "imasters"
+			"Imasters\\": "imasters",
+			"D4w\\": "d4w"
 		}
 	},
 	"require": {
