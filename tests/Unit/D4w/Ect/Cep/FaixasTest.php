@@ -57,12 +57,27 @@ class FaixasTest extends PHPUnit_Framework_TestCase
 		$this->assertEquals('df', \D4w\Ect\Cep\Faixas::getEstado('72331-006'));
 	}
 
-	// teste de faixas para cep Goias e DF está com problema
 	public function testGoias()
 	{
 		$this->assertEquals('go', \D4w\Ect\Cep\Faixas::getEstado('72912-445'));
 		$this->assertEquals('go', \D4w\Ect\Cep\Faixas::getEstado('72800-160'));
 		$this->assertEquals('go', \D4w\Ect\Cep\Faixas::getEstado('72800-160'));
+	}
+
+	public function testIsCapital()
+	{
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('30180100')); // bh
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('05909200')); // sp
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('21123100')); // rj
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('29015123')); // es
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('40120000')); // ba
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('49080500')); // se
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('52999333')); // pe
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('57012100')); // al
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('58010500')); // pb
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('59025123')); // rn
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('60999123')); // ce
+		$this->assertTrue(\D4w\Ect\Cep\Faixas::isCapital('64099999')); // pi
 	}
 
 }
