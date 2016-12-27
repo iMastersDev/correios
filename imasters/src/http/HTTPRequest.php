@@ -1,13 +1,14 @@
 <?php
+namespace Imasters\http;
 /**
  * @brief	Protocolo HTTP
  * @details	Classes e interfaces relacionadas com o protocolo HTTP
  * @package com.imasters.php.http
  */
 
-require_once 'com/imasters/php/http/HTTPConnection.php';
-require_once 'com/imasters/php/http/HTTPAuthenticator.php';
-require_once 'com/imasters/php/http/HTTPRequestMethod.php';
+use Imasters\http\HTTPConnection;
+use Imasters\http\HTTPAuthenticator;
+use Imasters\http\HTTPRequestMethod;
 
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>

@@ -1,5 +1,9 @@
 <?php
-require_once 'com/imasters/php/ect/ECT.php';
+require_once 'vendor/autoload.php';
+
+use Imasters\ect\ECT;
+use Imasters\ect\prdt\ECTFormatos;
+use Imasters\ect\prdt\ECTServicos;
 
 $ect = new ECT();
 $prdt = $ect->prdt();
@@ -8,7 +12,7 @@ $prdt->setNVlComprimento( 20 );
 $prdt->setNVlLargura( 20 );
 $prdt->setNCdFormato( ECTFormatos::FORMATO_CAIXA_PACOTE );
 $prdt->setNCdServico( ECTServicos::PAC );
-$prdt->setSCepOrigem( '09641030' );
+$prdt->setSCepOrigem( '88509000' );
 $prdt->setSCepDestino( '27511300' );
 $prdt->setNVlPeso( 10 );
 

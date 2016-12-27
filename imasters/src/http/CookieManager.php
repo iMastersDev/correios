@@ -1,17 +1,18 @@
 <?php
+namespace Imasters\http;
 /**
  * @brief	Protocolo HTTP
  * @details	Classes e interfaces relacionadas com o protocolo HTTP
  * @package com.imasters.php.http
  */
 
-require_once 'com/imasters/php/http/Cookie.php';
+use Imasters\http\Cookie;
 
 /**
  * @author	João Batista Neto <neto.joaobatista@imasters.com.br>
  * @brief	Interface para definição de um gerenciador de cookies.
  */
-interface CookieManager extends Serializable {
+interface CookieManager extends \Serializable {
 	/**
 	 * @brief	Adiciona um cookie para ser armazenado pelo gerenciador.
 	 * @param	Cookie $cookie
