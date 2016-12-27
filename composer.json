@@ -1,0 +1,6 @@
+{
+	"autoload":{
+		"psr-4":{"Imasters\\": "imasters/src/"}
+	}
+
+}

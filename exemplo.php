@@ -8,7 +8,7 @@ $prdt->setNVlComprimento( 20 );
 $prdt->setNVlLargura( 20 );
 $prdt->setNCdFormato( ECTFormatos::FORMATO_CAIXA_PACOTE );
 $prdt->setNCdServico( ECTServicos::PAC );
-$prdt->setSCepOrigem( '09641030' );
+$prdt->setSCepOrigem( '88509000' );
 $prdt->setSCepDestino( '27511300' );
 $prdt->setNVlPeso( 10 );
 
