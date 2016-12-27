@@ -1,14 +1,15 @@
 <?php
+namespace Imasters\ect\prdt;
 /**
  * @brief	Biblioteca Correios para cálculo de preços e prazos
  * @details	Classes e interfaces para integração com a API do Correios
  * @package com.imasters.php.ect.prdt
  */
-
-require_once 'com/imasters/php/ect/prdt/ECTFormatos.php';
-require_once 'com/imasters/php/ect/prdt/ECTServicos.php';
-require_once 'com/imasters/php/ect/EctAPI.php';
-require_once 'com/imasters/php/ect/prdt/ECTServico.php';
+use Imasters\ect\ECT;
+use Imasters\ect\prdt\ECTFormatos;
+use Imasters\ect\prdt\ECTServicos;
+use Imasters\ect\EctAPI;
+use Imasters\ect\prdt\ECTServico;
 
 /**
  * @brief	Cálculo de preços e prazos de entrega de encomendas
@@ -109,11 +110,11 @@ class Prdt extends EctAPI {
 		$this->httpConnection->setParam( 'StrRetorno' , 'xml' );
 		$xml = $this->httpConnection->execute( '/calculador/CalcPrecoPrazo.aspx' )->getContent();
 
-		$dom = new DOMDocument();
+		$dom = new \DOMDocument();
 		$dom->loadXML( $xml );
 
-		$xpath = new DOMXPath( $dom );
-		$servicos = new ArrayIterator();
+		$xpath = new \DOMXPath( $dom );
+		$servicos = new \ArrayIterator();
 
 		foreach ( $xpath->query( './/cServico' ) as $cServico ) {
 			$ectServico = new ECTServico();

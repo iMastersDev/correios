@@ -1,5 +1,9 @@
 <?php
-require_once 'com/imasters/php/ect/ECT.php';
+require_once 'vendor/autoload.php';
+
+use Imasters\ect\ECT;
+use Imasters\ect\prdt\ECTFormatos;
+use Imasters\ect\prdt\ECTServicos;
 
 $ect = new ECT();
 $prdt = $ect->prdt();

@@ -1,4 +1,5 @@
 <?php
+namespace Imasters\ect\prdt;
 /**
  * @brief	Biblioteca Correios para cálculo de preços e prazos
  * @details	Classes e interfaces para integração com a API do Correios

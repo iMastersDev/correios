@@ -1,13 +1,14 @@
 <?php
+
+namespace Imasters\ect;
 /**
  * @brief	Biblioteca Correios
  * @details	Classes e interfaces para integração com a API do Correios
  * @package com.imasters.php.ect
  */
-
-require_once 'com/imasters/php/http/HTTPConnection.php';
-require_once 'com/imasters/php/http/HTTPCookieManager.php';
-require_once 'com/imasters/php/ect/prdt/Prdt.php';
+use Imasters\http\HTTPConnection;
+use Imasters\http\HTTPCookieManager;
+use Imasters\ect\prdt\Prdt;
 
 /**
  * @brief	Interface para APIs dos Correios (ECT)

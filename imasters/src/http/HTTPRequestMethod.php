@@ -1,4 +1,5 @@
 <?php
+namespace Imasters\http;
 /**
  * @brief	Protocolo HTTP
  * @details	Classes e interfaces relacionadas com o protocolo HTTP
