@@ -48,3 +48,7 @@ Como Usar ?
 	foreach ( $prdt->call() as $servico ) {
 		printf( "O preço do frete do correios para o serviço %d é R$ %.02f\n" , $servico->Codigo , $servico->Valor );
 	}
+
+## Olá
+
+Olá, @netojoaobatista, estamos na CAMPUS PARTY BRASILIA!
