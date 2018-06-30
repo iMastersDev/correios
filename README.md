@@ -8,7 +8,7 @@ O desenvolvedor pode calcular, de uma única vez, o preço do frete para os dive
 
 Como Usar ?
 -----------
-
+```php
 > A biblioteca pode fazer o cálculo de 1 serviço:
 
 	<?php
@@ -28,9 +28,9 @@ Como Usar ?
 	foreach ( $prdt->call() as $servico ) {
 		printf( "O preço do frete do correios para o serviço %d é R$ %.02f\n" , $servico->Codigo , $servico->Valor );
 	}
-
+```
 > Ou de vários ao mesmo tempo, eliminando-se assim o tempo de espera do cliente:
-	
+```php	
 	<?php
 	require_once 'com/imasters/php/ect/ECT.php';
 	
@@ -48,3 +48,4 @@ Como Usar ?
 	foreach ( $prdt->call() as $servico ) {
 		printf( "O preço do frete do correios para o serviço %d é R$ %.02f\n" , $servico->Codigo , $servico->Valor );
 	}
+```
